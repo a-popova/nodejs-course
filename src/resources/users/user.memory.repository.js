@@ -1,6 +1,48 @@
+const User = require('./user.model');
+const usersArray = [
+  {
+    id: '1',
+    name: 'Anastasiya',
+    login: 'apopova',
+    password: '123456789'
+  },
+  {
+    id: '2',
+    name: 'Vadim',
+    login: 'yoihito',
+    password: '1234'
+  }
+];
+
 const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
-  return [];
+  return usersArray;
 };
 
-module.exports = { getAll };
+const getUser = async id => {
+  return usersArray.find(user => user.id === id);
+};
+
+const createUser = async objDetails => {
+  const { name, login, password } = objDetails;
+  const newUser = new User({ name, login, password });
+  usersArray.push(newUser);
+  return newUser;
+};
+
+const updateUser = async (id, newInfo) => {
+  const currentUser = usersArray.find(item => item.id === id);
+  const newUser = newInfo;
+  Object.assign(currentUser, newUser);
+  return currentUser;
+};
+
+const deleteUser = async id => {
+  const index = usersArray.findIndex(user => user.id === id);
+  if (index !== -1) {
+    usersArray.slice(index, index + 1);
+    return true;
+  }
+  return false;
+};
+
+module.exports = { getAll, getUser, createUser, updateUser, deleteUser };
