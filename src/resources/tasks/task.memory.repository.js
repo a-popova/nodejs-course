@@ -46,11 +46,16 @@ const createTask = async (params, objDetails) => {
   return newTask;
 };
 
-const updateTask = async (id, newInfo) => {
-  const currentTask = tasks.find(item => item.id === id);
-  const newTask = newInfo;
-  Object.assign(currentTask, newTask);
-  return currentTask;
+const updateTask = async (params, newInfo) => {
+  const currentTask = tasks
+    .filter(task => task.boardId === params.boardId)
+    .find(task => task.id === params.id);
+  if (currentTask) {
+    newInfo.boardId = params.boardId;
+    Object.assign(currentTask, newInfo);
+    return currentTask;
+  }
+  return false;
 };
 
 const deleteTask = async params => {
@@ -59,7 +64,7 @@ const deleteTask = async params => {
   );
 
   if (index.length) {
-    tasks.slice(index, index + 1);
+    tasks.splice(index, 1);
     return true;
   }
   return false;

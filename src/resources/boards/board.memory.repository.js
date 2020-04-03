@@ -66,7 +66,7 @@ const updateBoard = async (id, newInfo) => {
 const deleteBoard = async id => {
   const index = boards.findIndex(board => board.id === id);
   if (index !== -1) {
-    boards.slice(index, index + 1);
+    boards.splice(index, 1);
     return true;
   }
   return false;

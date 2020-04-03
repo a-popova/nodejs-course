@@ -15,7 +15,7 @@ router.route('/:id').get(async (req, res) => {
   if (task) {
     res.json(task);
   } else {
-    res.status(401).end();
+    res.status(404).end();
   }
 });
 
@@ -26,7 +26,11 @@ router.route('/').post(async (req, res) => {
 
 router.route('/:id').put(async (req, res) => {
   const updatedTask = await tasksService.updateTask(req.params, req.body);
-  res.json(updatedTask);
+  if (updatedTask) {
+    res.json(updatedTask);
+  } else {
+    res.status(404).end();
+  }
 });
 
 router.route('/:id').delete(async (req, res) => {

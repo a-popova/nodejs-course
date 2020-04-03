@@ -38,7 +38,7 @@ const updateUser = async (id, newInfo) => {
 const deleteUser = async id => {
   const index = usersArray.findIndex(user => user.id === id);
   if (index !== -1) {
-    usersArray.slice(index, index + 1);
+    usersArray.splice(index, 1);
     return true;
   }
   return false;
