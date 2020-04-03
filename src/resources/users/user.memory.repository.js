@@ -31,8 +31,7 @@ const createUser = async objDetails => {
 
 const updateUser = async (id, newInfo) => {
   const currentUser = usersArray.find(item => item.id === id);
-  const newUser = newInfo;
-  Object.assign(currentUser, newUser);
+  Object.assign(currentUser, newInfo);
   return currentUser;
 };
 
