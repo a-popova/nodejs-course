@@ -21,14 +21,16 @@ const tasks = [
   }
 ];
 
-const getAll = async params => {
-  return tasks.filter(task => task.boardId === params.boardId);
+const getAll = async () => {
+  return tasks;
+};
+
+const getAllByBoard = async params => {
+  return tasks.filter(task => task.boardId === (params.boardId || params));
 };
 
 const getTask = async params => {
-  return tasks
-    .filter(task => task.boardId === params.boardId)
-    .find(task => task.id === params.id);
+  return tasks.find(task => task.id === params.id);
 };
 
 const createTask = async (params, objDetails) => {
@@ -47,11 +49,8 @@ const createTask = async (params, objDetails) => {
 };
 
 const updateTask = async (params, newInfo) => {
-  const currentTask = tasks
-    .filter(task => task.boardId === params.boardId)
-    .find(task => task.id === params.id);
+  const currentTask = tasks.find(task => task.id === params.id);
   if (currentTask) {
-    newInfo.boardId = params.boardId;
     Object.assign(currentTask, newInfo);
     return currentTask;
   }
@@ -59,15 +58,19 @@ const updateTask = async (params, newInfo) => {
 };
 
 const deleteTask = async params => {
-  const index = tasks.filter(
-    task => task.boardId === params.boardId && task.id === params.id
-  );
-
-  if (index.length) {
+  const index = tasks.findIndex(task => task.id === params.id);
+  if (index !== -1) {
     tasks.splice(index, 1);
     return true;
   }
   return false;
 };
 
-module.exports = { getAll, getTask, createTask, updateTask, deleteTask };
+module.exports = {
+  getAll,
+  getAllByBoard,
+  getTask,
+  createTask,
+  updateTask,
+  deleteTask
+};

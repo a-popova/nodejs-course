@@ -11,6 +11,14 @@ const TEST_USER_DATA = {
   password: 'T35t_P@55w0rd'
 };
 
+const TEST_BOARD_DATA = {
+  title: 'Autotest board',
+  columns: [
+    { title: 'Backlog', order: 1 },
+    { title: 'Sprint', order: 2 }
+  ]
+};
+
 describe('Users suite', () => {
   let request = unauthorizedRequest;
 
@@ -137,14 +145,13 @@ describe('Users suite', () => {
         .expect(200)
         .expect('Content-Type', /json/);
       const userId = userResponse.body.id;
-
       const boardResponse = await request
         .post(routes.boards.create)
+        .send(TEST_BOARD_DATA)
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/);
       const boardId = boardResponse.body.id;
-
       const userTaskResponses = await Promise.all(
         Array.from(Array(2)).map((_, idx) =>
           request
@@ -162,11 +169,9 @@ describe('Users suite', () => {
         )
       );
       const userTaskIds = userTaskResponses.map(res => res.body.id);
-
       // Test:
       const deleteResponse = await request.delete(routes.users.delete(userId));
       expect(deleteResponse.status).oneOf([200, 204]);
-
       for (const taskId of userTaskIds) {
         const newTaskResponse = await request
           .get(routes.tasks.getById(boardId, taskId))
@@ -177,7 +182,6 @@ describe('Users suite', () => {
         expect(newTaskResponse.body).to.be.instanceOf(Object);
         expect(newTaskResponse.body.userId).to.equal(null);
       }
-
       await Promise.all(
         userTaskIds.map(async taskId =>
           request
@@ -185,7 +189,6 @@ describe('Users suite', () => {
             .then(response => expect(response.status).oneOf([200, 204]))
         )
       );
-
       await request
         .delete(routes.boards.delete(boardId))
         .then(res => expect(res.status).oneOf([200, 204]));
