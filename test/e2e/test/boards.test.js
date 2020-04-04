@@ -144,7 +144,7 @@ describe('Boards suite', () => {
       const res = await request
         .post(routes.boards.create)
         .set('Accept', 'application/json')
-        .send(TEST_BOARD_DATA)
+        // .send(TEST_BOARD_DATA)
         .expect(200);
       const boardId = res.body.id;
 
