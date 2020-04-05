@@ -43,6 +43,12 @@ describe('Users suite', () => {
 
     it('should get a user by id', async () => {
       // Setup:
+      // Create the user
+      await request
+        .post(routes.users.create)
+        .set('Accept', 'application/json')
+        .send(TEST_USER_DATA);
+
       const usersResponse = await request
         .get(routes.users.getAll)
         .set('Accept', 'application/json')
@@ -59,11 +65,16 @@ describe('Users suite', () => {
 
       expect(userResponse.body).to.be.instanceOf(Object);
       expect(userResponse.body.id).to.equal(userId);
+
+      // Clean up, delete the user we created
+      await request.delete(routes.users.delete(userId));
     });
   });
 
   describe('POST', () => {
     it('should create user successfully', async () => {
+      let userId;
+
       await request
         .post(routes.users.create)
         .set('Accept', 'application/json')
@@ -72,12 +83,16 @@ describe('Users suite', () => {
         .expect('Content-Type', /json/)
         .then(res => {
           expect(res.body.id).to.be.a('string');
+          userId = res.body.id;
           expect(res.body).to.not.have.property('password');
           jestExpect(res.body).toMatchObject({
             login: TEST_USER_DATA.login,
             name: TEST_USER_DATA.name
           });
         });
+
+      // Teardown
+      await request.delete(routes.users.delete(userId));
     });
   });
 
@@ -145,6 +160,7 @@ describe('Users suite', () => {
         .expect(200)
         .expect('Content-Type', /json/);
       const userId = userResponse.body.id;
+
       const boardResponse = await request
         .post(routes.boards.create)
         .send(TEST_BOARD_DATA)
@@ -152,6 +168,7 @@ describe('Users suite', () => {
         .expect(200)
         .expect('Content-Type', /json/);
       const boardId = boardResponse.body.id;
+
       const userTaskResponses = await Promise.all(
         Array.from(Array(2)).map((_, idx) =>
           request
@@ -169,9 +186,11 @@ describe('Users suite', () => {
         )
       );
       const userTaskIds = userTaskResponses.map(res => res.body.id);
+
       // Test:
       const deleteResponse = await request.delete(routes.users.delete(userId));
       expect(deleteResponse.status).oneOf([200, 204]);
+
       for (const taskId of userTaskIds) {
         const newTaskResponse = await request
           .get(routes.tasks.getById(boardId, taskId))
@@ -182,6 +201,7 @@ describe('Users suite', () => {
         expect(newTaskResponse.body).to.be.instanceOf(Object);
         expect(newTaskResponse.body.userId).to.equal(null);
       }
+
       await Promise.all(
         userTaskIds.map(async taskId =>
           request
@@ -189,6 +209,7 @@ describe('Users suite', () => {
             .then(response => expect(response.status).oneOf([200, 204]))
         )
       );
+
       await request
         .delete(routes.boards.delete(boardId))
         .then(res => expect(res.status).oneOf([200, 204]));
