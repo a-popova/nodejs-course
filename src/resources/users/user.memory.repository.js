@@ -31,8 +31,11 @@ const createUser = async objDetails => {
 
 const updateUser = async (id, newInfo) => {
   const currentUser = usersArray.find(item => item.id === id);
-  Object.assign(currentUser, newInfo);
-  return currentUser;
+  if (currentUser) {
+    Object.assign(currentUser, newInfo);
+    return currentUser;
+  }
+  return null;
 };
 
 const deleteUser = async id => {

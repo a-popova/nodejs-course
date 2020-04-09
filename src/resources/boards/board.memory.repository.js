@@ -52,14 +52,17 @@ const createBoard = async objDetails => {
 
 const updateBoard = async (id, newInfo) => {
   const currentBoard = boards.find(item => item.id === id);
-  for (const column of currentBoard.columns) {
-    for (const newColumn of newInfo.columns) {
-      if (column.id === newColumn.id) {
-        Object.assign(currentBoard, newInfo);
-        return currentBoard;
+  if (currentBoard) {
+    for (const column of currentBoard.columns) {
+      for (const newColumn of newInfo.columns) {
+        if (column.id === newColumn.id) {
+          Object.assign(currentBoard, newInfo);
+          return currentBoard;
+        }
       }
-      return false;
     }
+  } else {
+    return null;
   }
 };
 
