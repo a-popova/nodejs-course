@@ -9,6 +9,8 @@ const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
 
+const { createLogger, format, transports } = require('winston');
+
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
@@ -26,6 +28,16 @@ app.use(
   morgan(':url :query :body', { stream: createWriteStream('requests.log') })
 );
 
+const logger = createLogger({
+  transports: [
+    new transports.File({
+      filename: 'error.log',
+      level: 'error',
+      format: format.combine(format.uncolorize(), format.json())
+    })
+  ]
+});
+
 app.use(express.json());
 app.use('/', (req, res, next) => {
   if (req.originalUrl === '/') {
@@ -40,6 +52,7 @@ app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 
 app.use((err, req, res, next) => {
+  logger.error(err);
   const { statusCode, message } = err;
   if (statusCode) {
     res.status(statusCode).json({
@@ -47,11 +60,13 @@ app.use((err, req, res, next) => {
       statusCode,
       message
     });
+    return;
   }
   next(err);
 });
-app.use((err, req, res) => {
+app.use((err, req, res, next) => {
   res.status(INTERNAL_SERVER_ERROR).send(getStatusText(INTERNAL_SERVER_ERROR));
+  next();
 });
 
 module.exports = app;
