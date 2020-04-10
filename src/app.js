@@ -3,13 +3,12 @@ const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
 const morgan = require('morgan');
+const fs = require('fs');
 const { createWriteStream } = require('fs');
-const { INTERNAL_SERVER_ERROR, getStatusText } = require('http-status-codes');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
-
-const { createLogger, format, transports } = require('winston');
+const { handleError } = require('./errorHandler');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
@@ -28,16 +27,6 @@ app.use(
   morgan(':url :query :body', { stream: createWriteStream('requests.log') })
 );
 
-const logger = createLogger({
-  transports: [
-    new transports.File({
-      filename: 'error.log',
-      level: 'error',
-      format: format.combine(format.uncolorize(), format.json())
-    })
-  ]
-});
-
 app.use(express.json());
 app.use('/', (req, res, next) => {
   if (req.originalUrl === '/') {
@@ -52,21 +41,21 @@ app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 
 app.use((err, req, res, next) => {
-  logger.error(err);
-  const { statusCode, message } = err;
-  if (statusCode) {
-    res.status(statusCode).json({
-      status: 'error',
-      statusCode,
-      message
-    });
-    return;
-  }
-  next(err);
-});
-app.use((err, req, res, next) => {
-  res.status(INTERNAL_SERVER_ERROR).send(getStatusText(INTERNAL_SERVER_ERROR));
+  handleError(err, res);
   next();
+});
+
+// const globalState = {};
+
+process.on('uncaughtException', error => {
+  console.error(`captured error: ${error.message}`);
+  // fs.writeFileSync('uncaughtException.log', JSON.stringify(globalState), { flag: 'a' });
+  // process.exit(1);
+});
+
+process.on('unhandledRejection', reason => {
+  console.error(`Unhandled rejection detected: ${reason.message}`);
+  fs.writeFileSync('promiseRejection.log', reason, { flag: 'a' });
 });
 
 module.exports = app;

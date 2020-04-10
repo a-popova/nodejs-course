@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const ErrorHandler = require('../../errorHandler');
+const { ErrorHandler } = require('../../errorHandler');
 const boardsService = require('./board.service');
 
 router

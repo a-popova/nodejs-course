@@ -1,5 +1,5 @@
 const router = require('express').Router({ mergeParams: true });
-const ErrorHandler = require('../../errorHandler');
+const { ErrorHandler } = require('../../errorHandler');
 const tasksService = require('./task.service');
 
 router

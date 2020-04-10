@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const ErrorHandler = require('../../errorHandler');
+const { ErrorHandler } = require('../../errorHandler');
 const User = require('./user.model');
 const usersService = require('./user.service');
 
