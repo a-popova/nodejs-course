@@ -34,13 +34,13 @@ function handleError(err, res) {
 }
 
 process.on('uncaughtException', error => {
-  logger.error(error);
-  throw new Error(`captured error: ${error.message}`);
+  logger.error({ statusCode: 500, message: error.message });
+  const exit = process.exit;
+  exit(1);
 });
 
 process.on('unhandledRejection', reason => {
-  logger.error(reason);
-  throw new Error(`Unhandled rejection detected: ${reason.message}`);
+  logger.error({ statusCode: 500, message: reason });
 });
 
 module.exports = { ErrorHandler, handleError };

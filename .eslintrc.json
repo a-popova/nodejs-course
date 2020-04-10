@@ -45,7 +45,7 @@
         "no-constant-condition": 2,
         "no-control-regex": 2,
         "no-dupe-args": 2,
-        "no-dupe-keys": 2,
+        "no-dupe-keys": 1,
         "no-duplicate-case": 2,
         "no-empty-character-class": 2,
         "no-empty": 2,
