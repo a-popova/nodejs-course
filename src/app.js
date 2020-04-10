@@ -3,7 +3,6 @@ const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
 const morgan = require('morgan');
-const fs = require('fs');
 const { createWriteStream } = require('fs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
@@ -43,19 +42,6 @@ app.use('/boards/:boardId/tasks', taskRouter);
 app.use((err, req, res, next) => {
   handleError(err, res);
   next();
-});
-
-// const globalState = {};
-
-process.on('uncaughtException', error => {
-  console.error(`captured error: ${error.message}`);
-  // fs.writeFileSync('uncaughtException.log', JSON.stringify(globalState), { flag: 'a' });
-  // process.exit(1);
-});
-
-process.on('unhandledRejection', reason => {
-  console.error(`Unhandled rejection detected: ${reason.message}`);
-  fs.writeFileSync('promiseRejection.log', reason, { flag: 'a' });
 });
 
 module.exports = app;

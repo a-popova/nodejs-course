@@ -33,4 +33,14 @@ function handleError(err, res) {
   res.status(INTERNAL_SERVER_ERROR).send(getStatusText(INTERNAL_SERVER_ERROR));
 }
 
+process.on('uncaughtException', error => {
+  logger.error(error);
+  throw new Error(`captured error: ${error.message}`);
+});
+
+process.on('unhandledRejection', reason => {
+  logger.error(reason);
+  throw new Error(`Unhandled rejection detected: ${reason.message}`);
+});
+
 module.exports = { ErrorHandler, handleError };
