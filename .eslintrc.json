@@ -45,7 +45,7 @@
         "no-constant-condition": 2,
         "no-control-regex": 2,
         "no-dupe-args": 2,
-        "no-dupe-keys": 2,
+        "no-dupe-keys": 1,
         "no-duplicate-case": 2,
         "no-empty-character-class": 2,
         "no-empty": 2,
@@ -165,12 +165,12 @@
         "no-shadow": 2,
         "no-undef-init": 2,
         "no-undef": 2,
-        "no-unused-vars": 2,
+        "no-unused-vars": 1,
         // Node.js
         "callback-return": 2,
         "no-mixed-requires": 2,
         "no-path-concat": 2,
-        "no-sync": 2,
+        "no-sync": 1,
         "handle-callback-err": 1,
         "no-new-require": 2,
         // Stylistic
