@@ -9,9 +9,24 @@ const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
 const { handleError } = require('./errorHandler');
 const { logger } = require('./errorHandler');
+const { MONGO_CONNECTION_STRING } = require('./common/config');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
+const mongoose = require('mongoose');
+
+const connectToDB = cb => {
+  mongoose.connect(MONGO_CONNECTION_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  });
+  const db = mongoose.connection;
+  db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+  db.once('open', () => {
+    console.log("we're connected!");
+    cb();
+  });
+};
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
@@ -48,11 +63,13 @@ app.use((err, req, res, next) => {
 process.on('uncaughtException', error => {
   logger.error({ statusCode: 500, message: error.message });
   const exit = process.exit;
-  exit(1);
+  logger.on('finish', () => {
+    exit(1);
+  });
 });
 
 process.on('unhandledRejection', reason => {
   logger.error({ statusCode: 500, message: reason });
 });
 
-module.exports = app;
+module.exports = { app, connectToDB };
