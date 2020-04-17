@@ -134,6 +134,7 @@ describe('Boards suite', () => {
         .expect(200)
         .then(res => {
           jestExpect(res.body).not.toHaveLength(0);
+          console.log(res.body);
           boardId = res.body[0].id;
         });
 
@@ -171,7 +172,6 @@ describe('Boards suite', () => {
             .expect('Content-Type', /json/)
         )
       );
-
       const boardTaskIds = boardTaskResponses.map(response => response.body.id);
       await Promise.all(
         boardTaskIds.map(async taskId =>

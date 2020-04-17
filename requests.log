@@ -1,135 +1,131 @@
+/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
 /users {} {}
-/users/2cf2305f-c2de-4cea-abd5-9707a85c461a {} {"name":"Vadimmmmm","login":"yoihito","password":"12345678"}
-/users/2cf2305f-c2de-4cea-abd5-9707a85c461a {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks {} {}
+/users/eb1b6de7-a772-4cdf-a6f4-2b628c4ac194 {} {}
 /boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks {} {}
 /boards {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks/5e99c3c9ce1fd8274d3ffa2f {} {}
+/users/eb1b6de7-a772-4cdf-a6f4-2b628c4ac194 {} {}
 /boards {} {}
-/boards/1 {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+/boards/5e99c3c9ce1fd8274d3ffa2c {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks/5e99c3c9ce1fd8274d3ffa33 {} {}
 /boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/89712fd7-ed39-46f5-8a32-c8f24596de29 {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+/users/787dacaf-6bf0-4900-90bb-819d646a46d9 {} {}
+/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+/boards/5e99c3c9ce1fd8274d3ffa35 {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks/5e99c3c9ce1fd8274d3ffa34 {} {"id":"5e99c3c9ce1fd8274d3ffa34","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5e99c3c9ce1fd8274d3ffa2c","columnId":null}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks/5e99c3c9ce1fd8274d3ffa34 {} {}
 /boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/fbf96810-68ea-4a71-bd72-5822f14c5f95 {} {"id":"fbf96810-68ea-4a71-bd72-5822f14c5f95","title":"Autotest updated board","columns":[{"id":"cdb7cb4c-ae61-457d-900c-4d18a1ee3f50","title":"Backlog","order":1},{"id":"be351c16-5ef4-4cf8-a27f-043643f78854","title":"Sprint","order":2}]}
-/boards/fbf96810-68ea-4a71-bd72-5822f14c5f95 {} {}
-/boards/fbf96810-68ea-4a71-bd72-5822f14c5f95 {} {}
+/users/2b5e87cf-324a-4b14-9d72-4fd1d5dd31bb {} {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"2b5e87cf-324a-4b14-9d72-4fd1d5dd31bb"}
+/users/2b5e87cf-324a-4b14-9d72-4fd1d5dd31bb {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks/5e99c3c9ce1fd8274d3ffa2f {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks/5e99c3c9ce1fd8274d3ffa2f {} {}
+/boards/5e99c3c9ce1fd8274d3ffa38 {} {"id":"5e99c3c9ce1fd8274d3ffa38","title":"Autotest updated board","columns":[{"_id":"5e99c3c9ce1fd8274d3ffa39","title":"Backlog","order":1},{"_id":"5e99c3c9ce1fd8274d3ffa3a","title":"Sprint","order":2}]}
+/boards/5e99c3c9ce1fd8274d3ffa38 {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c/tasks/5e99c3c9ce1fd8274d3ffa2f {} {}
+/users/2b5e87cf-324a-4b14-9d72-4fd1d5dd31bb {} {}
+/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+/boards/5e99c3c9ce1fd8274d3ffa38 {} {}
+/boards/5e99c3c9ce1fd8274d3ffa2c {} {}
+/users/510e65cd-c980-4c2e-bfa0-2266831c42ad {} {}
 /boards {} {}
-/boards/1 {} {}
-/boards/1 {} {}
-/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"27f8b48e-5674-4807-b94a-eee76e7cd3e9","userId":null,"columnId":null}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"27f8b48e-5674-4807-b94a-eee76e7cd3e9","userId":null,"columnId":null}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks {} {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"27f8b48e-5674-4807-b94a-eee76e7cd3e9","userId":null,"columnId":null}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks {} {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"27f8b48e-5674-4807-b94a-eee76e7cd3e9","userId":null,"columnId":null}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks {} {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"27f8b48e-5674-4807-b94a-eee76e7cd3e9","userId":null,"columnId":null}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/7a8e317e-1162-43f4-8512-78571a4d88ba {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/0a451724-d3b8-4528-9cf1-594b4600f372 {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/16e1fdf5-368c-4348-bd51-958e44ff7e6b {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/abdcd150-19aa-4278-897a-cb6e4f9a1d42 {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/bd316ee0-d443-4206-bd61-bbcfb66f4e80 {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9 {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/7a8e317e-1162-43f4-8512-78571a4d88ba {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/16e1fdf5-368c-4348-bd51-958e44ff7e6b {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/0a451724-d3b8-4528-9cf1-594b4600f372 {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/abdcd150-19aa-4278-897a-cb6e4f9a1d42 {} {}
-/boards/27f8b48e-5674-4807-b94a-eee76e7cd3e9/tasks/bd316ee0-d443-4206-bd61-bbcfb66f4e80 {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks/a290d2da-f4e7-46cc-9966-cdd47a4e66b6 {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks/ad1d9616-4807-40a4-9b6d-3e59eb1e9aaa {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks/53fdebea-753e-4e00-90d6-da783e988bd0 {} {"id":"53fdebea-753e-4e00-90d6-da783e988bd0","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"80c51345-cd6e-48e9-8b5c-708d6fae3181","columnId":null}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks/53fdebea-753e-4e00-90d6-da783e988bd0 {} {}
-/users {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks/a290d2da-f4e7-46cc-9966-cdd47a4e66b6 {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks/a290d2da-f4e7-46cc-9966-cdd47a4e66b6 {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181/tasks/a290d2da-f4e7-46cc-9966-cdd47a4e66b6 {} {}
-/boards/80c51345-cd6e-48e9-8b5c-708d6fae3181 {} {}
-/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/users/be10f6cb-5057-4584-a467-e0fb1fc423f3 {} {}
-/users/be10f6cb-5057-4584-a467-e0fb1fc423f3 {} {}
-/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/users/0bbec28b-3b4f-44e5-bb1f-2b2143a6f008 {} {}
-/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/users/9611fa82-5c02-4bc1-9a72-7c9d27f84543 {} {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"9611fa82-5c02-4bc1-9a72-7c9d27f84543"}
-/users/9611fa82-5c02-4bc1-9a72-7c9d27f84543 {} {}
-/users/9611fa82-5c02-4bc1-9a72-7c9d27f84543 {} {}
-/users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/users/77c3e0e5-5d5b-464f-8d96-bcbd95dbf814 {} {}
 /users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
 /boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/1b185fa8-9868-49bc-95ad-9e1dee2824af/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"95f949cb-66a3-479d-80c2-eb923647f815","boardId":"1b185fa8-9868-49bc-95ad-9e1dee2824af"}
-/boards/1b185fa8-9868-49bc-95ad-9e1dee2824af/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"95f949cb-66a3-479d-80c2-eb923647f815","boardId":"1b185fa8-9868-49bc-95ad-9e1dee2824af"}
-/users/95f949cb-66a3-479d-80c2-eb923647f815 {} {}
-/boards/1b185fa8-9868-49bc-95ad-9e1dee2824af/tasks/25818b7a-6373-4a69-90f3-06c1113ed669 {} {}
-/boards/1b185fa8-9868-49bc-95ad-9e1dee2824af/tasks/b89a967e-8e51-4956-9472-c614bfd01f8b {} {}
-/boards/1b185fa8-9868-49bc-95ad-9e1dee2824af/tasks/b89a967e-8e51-4956-9472-c614bfd01f8b {} {}
-/boards/1b185fa8-9868-49bc-95ad-9e1dee2824af/tasks/25818b7a-6373-4a69-90f3-06c1113ed669 {} {}
-/boards/1b185fa8-9868-49bc-95ad-9e1dee2824af {} {}
+/boards/5e99c3c9ce1fd8274d3ffa30 {} {}
+/boards/5e99c3cace1fd8274d3ffa3d/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"0ef3f402-578c-4851-bfb2-60ec37cc1eb5","boardId":"5e99c3cace1fd8274d3ffa3d"}
+/boards/5e99c3cace1fd8274d3ffa3d/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"0ef3f402-578c-4851-bfb2-60ec37cc1eb5","boardId":"5e99c3cace1fd8274d3ffa3d"}
+/boards/5e99c3c9ce1fd8274d3ffa30 {} {}
 /boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards {} {}
-/boards {} {}
-/boards/2 {} {}
-/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/d88f0887-e914-4c45-9fd9-a1137d12b902 {} {}
-/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/98d954dc-bf3a-4bb3-a45a-efb2322e4969 {} {"id":"98d954dc-bf3a-4bb3-a45a-efb2322e4969","title":"Autotest updated board","columns":[{"id":"81b00d78-af6c-4f44-918a-0da071c723ec","title":"Backlog","order":1},{"id":"17894530-3571-4864-b1b9-abbc5972b24b","title":"Sprint","order":2}]}
-/boards/98d954dc-bf3a-4bb3-a45a-efb2322e4969 {} {}
-/boards/98d954dc-bf3a-4bb3-a45a-efb2322e4969 {} {}
-/boards {} {}
-/boards/2 {} {}
-/boards/2 {} {}
-/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2f0dc032-19dd-4269-b69d-bb230f64f5eb","userId":null,"columnId":null}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2f0dc032-19dd-4269-b69d-bb230f64f5eb","userId":null,"columnId":null}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks {} {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2f0dc032-19dd-4269-b69d-bb230f64f5eb","userId":null,"columnId":null}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks {} {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2f0dc032-19dd-4269-b69d-bb230f64f5eb","userId":null,"columnId":null}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks {} {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2f0dc032-19dd-4269-b69d-bb230f64f5eb","userId":null,"columnId":null}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/f1e1d836-cf80-4ad0-a2c7-7e766fa0c3fa {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/b2839e44-ebee-4e6e-b04c-2eaa851b8542 {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/9941c9d7-3e98-4805-8def-6f3cab9d0272 {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/d9e8a1dc-9b36-4494-912c-f5e24a4ac3ce {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/176993f1-92ae-4780-81be-927539fb73ff {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/f1e1d836-cf80-4ad0-a2c7-7e766fa0c3fa {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/b2839e44-ebee-4e6e-b04c-2eaa851b8542 {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/9941c9d7-3e98-4805-8def-6f3cab9d0272 {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/d9e8a1dc-9b36-4494-912c-f5e24a4ac3ce {} {}
-/boards/2f0dc032-19dd-4269-b69d-bb230f64f5eb/tasks/176993f1-92ae-4780-81be-927539fb73ff {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5e99c3cace1fd8274d3ffa42","userId":null,"columnId":null}
+/boards/5e99c3cace1fd8274d3ffa42/tasks {} {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5e99c3cace1fd8274d3ffa42","userId":null,"columnId":null}
+/boards/5e99c3cace1fd8274d3ffa42/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5e99c3cace1fd8274d3ffa42","userId":null,"columnId":null}
+/boards/5e99c3cace1fd8274d3ffa42/tasks {} {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5e99c3cace1fd8274d3ffa42","userId":null,"columnId":null}
+/boards/5e99c3cace1fd8274d3ffa42/tasks {} {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5e99c3cace1fd8274d3ffa42","userId":null,"columnId":null}
+/users/0ef3f402-578c-4851-bfb2-60ec37cc1eb5 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa45 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa46 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa47 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa48 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa49 {} {}
+/boards/5e99c3cace1fd8274d3ffa3d/tasks/5e99c3cace1fd8274d3ffa41 {} {}
+/boards/5e99c3cace1fd8274d3ffa3d/tasks/5e99c3cace1fd8274d3ffa40 {} {}
+/boards/5e99c3cace1fd8274d3ffa3d/tasks/5e99c3cace1fd8274d3ffa41 {} {}
+/boards/5e99c3cace1fd8274d3ffa3d/tasks/5e99c3cace1fd8274d3ffa40 {} {}
+/boards/5e99c3cace1fd8274d3ffa42 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa48 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa47 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa45 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa46 {} {}
+/boards/5e99c3cace1fd8274d3ffa42/tasks/5e99c3cace1fd8274d3ffa49 {} {}
+/boards/5e99c3cace1fd8274d3ffa3d {} {}
 /users {} {}
 /boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks {} {}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks {} {}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks/383bd929-8d56-47c6-b464-e63c3b87c44e {} {}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks/1aa0865d-c034-428c-ab8a-a26122beca53 {} {}
+/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
 /users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks/fb530334-885d-4e3f-9708-1296c3b47d5e {} {"id":"fb530334-885d-4e3f-9708-1296c3b47d5e","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"483f313e-a162-462d-85df-0358e483205f","columnId":null}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks/fb530334-885d-4e3f-9708-1296c3b47d5e {} {}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks/383bd929-8d56-47c6-b464-e63c3b87c44e {} {}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks/383bd929-8d56-47c6-b464-e63c3b87c44e {} {}
-/boards/483f313e-a162-462d-85df-0358e483205f/tasks/383bd929-8d56-47c6-b464-e63c3b87c44e {} {}
-/boards/483f313e-a162-462d-85df-0358e483205f {} {}
-/users/efa0f9c4-b778-483f-84d2-7e7ccbfc20bd {} {}
-/users/efa0f9c4-b778-483f-84d2-7e7ccbfc20bd {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+/boards {} {}
+/users/49e0550d-f5e7-456a-9590-a6ad7a2766f8 {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks {} {}
+/boards {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a {} {}
+/users/49e0550d-f5e7-456a-9590-a6ad7a2766f8 {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks/5e99c3d4ce1fd8274d3ffa50 {} {}
+/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
 /users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/users/d9545c61-acc5-4d81-96bd-3bcc3cf68d78 {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks/5e99c3d4ce1fd8274d3ffa54 {} {}
+/boards/5e99c3d4ce1fd8274d3ffa51 {} {}
+/users/03af5707-d8e7-4034-9149-ae4f9b61941a {} {}
+/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks {} {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
 /users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/users/985b2379-7caa-4eb7-a256-e55c05915685 {} {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"985b2379-7caa-4eb7-a256-e55c05915685"}
-/users/985b2379-7caa-4eb7-a256-e55c05915685 {} {}
-/users/985b2379-7caa-4eb7-a256-e55c05915685 {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks/5e99c3d4ce1fd8274d3ffa55 {} {"id":"5e99c3d4ce1fd8274d3ffa55","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5e99c3d3ce1fd8274d3ffa4a","columnId":null}
+/boards/5e99c3d4ce1fd8274d3ffa56 {} {"id":"5e99c3d4ce1fd8274d3ffa56","title":"Autotest updated board","columns":[{"_id":"5e99c3d4ce1fd8274d3ffa57","title":"Backlog","order":1},{"_id":"5e99c3d4ce1fd8274d3ffa58","title":"Sprint","order":2}]}
+/users/3a35980d-f0b8-471d-b287-5c7c63d5e24d {} {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"3a35980d-f0b8-471d-b287-5c7c63d5e24d"}
+/boards/5e99c3d4ce1fd8274d3ffa56 {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks/5e99c3d4ce1fd8274d3ffa55 {} {}
+/users/3a35980d-f0b8-471d-b287-5c7c63d5e24d {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks/5e99c3d4ce1fd8274d3ffa50 {} {}
+/boards/5e99c3d4ce1fd8274d3ffa56 {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks/5e99c3d4ce1fd8274d3ffa50 {} {}
+/users/3a35980d-f0b8-471d-b287-5c7c63d5e24d {} {}
+/boards {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a/tasks/5e99c3d4ce1fd8274d3ffa50 {} {}
 /users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
-/users/2d368650-2271-4e25-8c44-51335bbe4a69 {} {}
+/users/9a41dce5-9700-4d46-af1d-11b6016ce920 {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a {} {}
+/boards/5e99c3d3ce1fd8274d3ffa4a {} {}
 /users {} {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
 /boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
-/boards/7b6087cd-2300-4576-8cc5-20a4ca7be4a9/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"ced8b6ad-cb67-490d-b1c5-59c368a09ba6","boardId":"7b6087cd-2300-4576-8cc5-20a4ca7be4a9"}
-/boards/7b6087cd-2300-4576-8cc5-20a4ca7be4a9/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"ced8b6ad-cb67-490d-b1c5-59c368a09ba6","boardId":"7b6087cd-2300-4576-8cc5-20a4ca7be4a9"}
-/users/ced8b6ad-cb67-490d-b1c5-59c368a09ba6 {} {}
-/boards/7b6087cd-2300-4576-8cc5-20a4ca7be4a9/tasks/bfbfc34e-d3a5-472d-8151-61e1c3820662 {} {}
-/boards/7b6087cd-2300-4576-8cc5-20a4ca7be4a9/tasks/05dfb597-83a0-4967-bce0-05a3dc18fd8b {} {}
-/boards/7b6087cd-2300-4576-8cc5-20a4ca7be4a9/tasks/bfbfc34e-d3a5-472d-8151-61e1c3820662 {} {}
-/boards/7b6087cd-2300-4576-8cc5-20a4ca7be4a9/tasks/05dfb597-83a0-4967-bce0-05a3dc18fd8b {} {}
-/boards/7b6087cd-2300-4576-8cc5-20a4ca7be4a9 {} {}
+/boards {} {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+/boards/5e99c3d5ce1fd8274d3ffa5b/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"75966193-a2f4-4300-b0bb-0b7999372357","boardId":"5e99c3d5ce1fd8274d3ffa5b"}
+/boards/5e99c3d5ce1fd8274d3ffa5b/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"75966193-a2f4-4300-b0bb-0b7999372357","boardId":"5e99c3d5ce1fd8274d3ffa5b"}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks {} {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5e99c3d5ce1fd8274d3ffa5e","userId":null,"columnId":null}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks {} {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5e99c3d5ce1fd8274d3ffa5e","userId":null,"columnId":null}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks {} {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5e99c3d5ce1fd8274d3ffa5e","userId":null,"columnId":null}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks {} {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5e99c3d5ce1fd8274d3ffa5e","userId":null,"columnId":null}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks {} {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5e99c3d5ce1fd8274d3ffa5e","userId":null,"columnId":null}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa64 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa63 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa66 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa65 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa67 {} {}
+/users/75966193-a2f4-4300-b0bb-0b7999372357 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5b/tasks/5e99c3d5ce1fd8274d3ffa61 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5b/tasks/5e99c3d5ce1fd8274d3ffa62 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5b/tasks/5e99c3d5ce1fd8274d3ffa62 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5b/tasks/5e99c3d5ce1fd8274d3ffa61 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa64 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa66 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa63 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa67 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5e/tasks/5e99c3d5ce1fd8274d3ffa65 {} {}
+/boards/5e99c3d5ce1fd8274d3ffa5b {} {}

@@ -8,9 +8,6 @@ router
   .get(async (req, res, next) => {
     try {
       const users = await usersService.getAll();
-      if (!users.length) {
-        throw new ErrorHandler(401, 'Access token is missing or invalid');
-      }
       res.json(users.map(User.toResponse));
     } catch (error) {
       return next(error);

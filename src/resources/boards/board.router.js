@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { ErrorHandler } = require('../../errorHandler');
 const boardsService = require('./board.service');
+const Board = require('./board.model');
 
 router
   .route('/')
@@ -10,7 +11,7 @@ router
       if (!boards.length) {
         throw new ErrorHandler(401, 'Access token is missing or invalid');
       }
-      res.json(boards);
+      res.json(boards.map(Board.toResponse));
     } catch (error) {
       return next(error);
     }
@@ -21,7 +22,7 @@ router
         throw new ErrorHandler(400, 'Bad request');
       }
       const newBoard = await boardsService.createBoard(req.body);
-      res.json(newBoard);
+      res.json(Board.toResponse(newBoard));
     } catch (error) {
       return next(error);
     }
@@ -35,7 +36,7 @@ router
       if (!board) {
         throw new ErrorHandler(404, 'Board not found');
       }
-      res.json(board);
+      res.json(Board.toResponse(board));
     } catch (error) {
       return next(error);
     }
@@ -49,10 +50,11 @@ router
         req.params.id,
         req.body
       );
-      if (!updatedBoard) {
+      if (!updatedBoard.n) {
         throw new ErrorHandler(404, 'Bad request');
       }
-      res.json(updatedBoard);
+      const board = await boardsService.getBoard(req.params.id);
+      res.json(Board.toResponse(board));
     } catch (error) {
       return next(error);
     }
@@ -60,7 +62,7 @@ router
   .delete(async (req, res, next) => {
     try {
       const deletedBoard = await boardsService.deleteBoard(req.params.id);
-      if (!deletedBoard) {
+      if (!deletedBoard.deletedCount) {
         throw new ErrorHandler(404, 'Bad request');
       }
       res.status(204).end();
