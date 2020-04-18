@@ -16,8 +16,8 @@ const updateBoard = async (id, newInfo) => {
   return Board.updateOne({ _id: id }, newInfo);
 };
 
-const deleteBoard = id => {
-  return Board.deleteOne({ _id: id });
+const deleteBoard = async id => {
+  return await Board.deleteOne({ _id: id });
 };
 
 module.exports = { getAll, getBoard, createBoard, updateBoard, deleteBoard };

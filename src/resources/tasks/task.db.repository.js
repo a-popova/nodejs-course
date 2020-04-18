@@ -5,8 +5,7 @@ const getAll = async () => {
 };
 
 const getAllByBoard = async params => {
-  return Task.find({ boardId: params.boardId });
-  //   return tasks.filter(task => task.boardId === (params.boardId || params));
+  return await Task.find({ boardId: params.boardId });
 };
 
 const getTask = async params => {
@@ -27,7 +26,6 @@ const createTask = async (params, objDetails) => {
 };
 
 const updateTask = async (params, newInfo) => {
-  // newInfo.boardId = params.boardId;
   return Task.updateOne({ _id: params.id }, newInfo);
 };
 

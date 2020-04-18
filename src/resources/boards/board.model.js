@@ -7,9 +7,17 @@ const boardSchema = new mongoose.Schema(
     columns: [
       {
         title: String,
-        order: Number
+        order: Number,
+        _id: {
+          type: String,
+          default: uuid
+        }
       }
-    ]
+    ],
+    _id: {
+      type: String,
+      default: uuid
+    }
   },
   { versionKey: false }
 );

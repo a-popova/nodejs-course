@@ -134,7 +134,6 @@ describe('Boards suite', () => {
         .expect(200)
         .then(res => {
           jestExpect(res.body).not.toHaveLength(0);
-          console.log(res.body);
           boardId = res.body[0].id;
         });
 

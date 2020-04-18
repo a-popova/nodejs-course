@@ -8,7 +8,11 @@ const taskSchema = new mongoose.Schema(
     description: String,
     userId: String,
     boardId: String,
-    columnId: String
+    columnId: String,
+    _id: {
+      type: String,
+      default: uuid
+    }
   },
   { versionKey: false }
 );
