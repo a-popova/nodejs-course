@@ -1,7 +1,7 @@
 const router = require('express').Router({ mergeParams: true });
 const { ErrorHandler } = require('../../errorHandler');
 const tasksService = require('./task.service');
-
+const Task = require('./task.model');
 router
   .route('/')
   .get(async (req, res, next) => {
@@ -10,7 +10,7 @@ router
       if (!tasks.length) {
         throw new ErrorHandler(401, 'Access token is missing or invalid');
       }
-      res.json(tasks);
+      res.json(tasks.map(Task.toResponse));
     } catch (error) {
       return next(error);
     }
@@ -21,7 +21,8 @@ router
         throw new ErrorHandler(400, 'Bad request');
       }
       const newTask = await tasksService.createTask(req.params, req.body);
-      res.json(newTask);
+      // console.log(newTask);
+      res.json(Task.toResponse(newTask));
     } catch (error) {
       return next(error);
     }
@@ -35,7 +36,7 @@ router
       if (!task) {
         throw new ErrorHandler(404, 'Bad request');
       }
-      res.json(task);
+      res.json(Task.toResponse(task));
     } catch (error) {
       return next(error);
     }
@@ -46,10 +47,11 @@ router
         throw new ErrorHandler(400, 'Bad request');
       }
       const updatedTask = await tasksService.updateTask(req.params, req.body);
-      if (!updatedTask) {
+      if (!updatedTask.n) {
         throw new ErrorHandler(400, 'Bad request');
       }
-      res.json(updatedTask);
+      const task = await tasksService.getTask(req.params);
+      res.json(Task.toResponse(task));
     } catch (error) {
       return next(error);
     }

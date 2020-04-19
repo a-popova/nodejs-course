@@ -8,9 +8,6 @@ router
   .get(async (req, res, next) => {
     try {
       const users = await usersService.getAll();
-      if (!users.length) {
-        throw new ErrorHandler(401, 'Access token is missing or invalid');
-      }
       res.json(users.map(User.toResponse));
     } catch (error) {
       return next(error);
@@ -50,10 +47,11 @@ router
         req.params.id,
         req.body
       );
-      if (!updatedUser) {
+      if (!updatedUser.n) {
         throw new ErrorHandler(400, 'Bad request');
       }
-      res.json(User.toResponse(updatedUser));
+      const user = await usersService.getUser(req.params.id);
+      res.json(User.toResponse(user));
     } catch (error) {
       return next(error);
     }
