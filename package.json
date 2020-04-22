@@ -45,6 +45,7 @@
     ]
   },
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
     "commander": "^5.0.0",
     "cross-env": "6.0.3",
@@ -53,6 +54,7 @@
     "express-winston": "^4.0.3",
     "http-errors": "^1.7.3",
     "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
     "minimist": "^1.2.5",
     "mongoose": "^5.9.9",
     "morgan": "^1.10.0",

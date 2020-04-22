@@ -4,8 +4,15 @@ const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema(
   {
     name: String,
-    login: String,
-    password: String,
+    login: {
+      type: String,
+      unique: true,
+      required: true
+    },
+    password: {
+      type: String,
+      required: true
+    },
     _id: {
       type: String,
       default: uuid
@@ -20,18 +27,5 @@ userSchema.statics.toResponse = user => {
 };
 
 const User = mongoose.model('User', userSchema);
-
-// class User {
-//   constructor({
-//     id = uuid(),
-//     name = 'USER',
-//     login = 'user',
-//     password = 'P@55w0rd'
-//   } = {}) {
-//     this.id = id;
-//     this.name = name;
-//     this.login = login;
-//     this.password = password;
-//   }
 
 module.exports = User;

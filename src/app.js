@@ -4,6 +4,7 @@ const path = require('path');
 const YAML = require('yamljs');
 const morgan = require('morgan');
 const { createWriteStream } = require('fs');
+const loginRouter = require('./resources/login/login.router');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
@@ -20,11 +21,12 @@ const connectToDB = cb => {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
+  mongoose.set('useCreateIndex', true);
   const db = mongoose.connection;
   db.on('error', console.error.bind(console, 'MongoDB connection error:'));
   db.once('open', async () => {
     console.log("we're connected!");
-    await db.dropDatabase();
+    // await db.dropDatabase();
     cb();
   });
 };
@@ -52,6 +54,7 @@ app.use('/', (req, res, next) => {
   next();
 });
 
+app.use('/login', loginRouter);
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);

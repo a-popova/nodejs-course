@@ -1,3 +1,6 @@
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
+
 const usersRepo = require('./user.db.repository');
 const tasksService = require('../tasks/task.service');
 
@@ -5,7 +8,12 @@ const getAll = () => usersRepo.getAll();
 
 const getUser = id => usersRepo.getUser(id);
 
-const createUser = objDetails => usersRepo.createUser(objDetails);
+const createUser = objDetails => {
+  bcrypt.hash(objDetails.password, saltRounds, (err, hash) => {
+    objDetails.password = hash;
+    return usersRepo.createUser(objDetails);
+  });
+};
 
 const updateUser = (id, newInfo) => usersRepo.updateUser(id, newInfo);
 

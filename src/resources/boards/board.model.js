@@ -1,19 +1,22 @@
 const uuid = require('uuid');
 const mongoose = require('mongoose');
 
+const columnSchema = new mongoose.Schema(
+  {
+    _id: {
+      type: String,
+      default: uuid
+    },
+    title: String,
+    order: Number
+  },
+  { versionKey: false }
+);
+
 const boardSchema = new mongoose.Schema(
   {
     title: String,
-    columns: [
-      {
-        title: String,
-        order: Number,
-        _id: {
-          type: String,
-          default: uuid
-        }
-      }
-    ],
+    columns: [columnSchema],
     _id: {
       type: String,
       default: uuid
