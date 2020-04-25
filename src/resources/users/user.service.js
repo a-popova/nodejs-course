@@ -8,11 +8,10 @@ const getAll = () => usersRepo.getAll();
 
 const getUser = id => usersRepo.getUser(id);
 
-const createUser = objDetails => {
-  bcrypt.hash(objDetails.password, saltRounds, (err, hash) => {
-    objDetails.password = hash;
-    return usersRepo.createUser(objDetails);
-  });
+const createUser = async objDetails => {
+  const encryptedPassword = await bcrypt.hash(objDetails.password, saltRounds);
+  Object.assign(objDetails, { password: encryptedPassword });
+  return usersRepo.createUser(objDetails);
 };
 
 const updateUser = (id, newInfo) => usersRepo.updateUser(id, newInfo);

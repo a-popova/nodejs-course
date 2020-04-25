@@ -11,10 +11,12 @@ const taskRouter = require('./resources/tasks/task.router');
 const { handleError } = require('./errorHandler');
 const { logger } = require('./errorHandler');
 const { MONGO_CONNECTION_STRING } = require('./common/config');
+const { createUser } = require('./resources/users/user.service');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 const mongoose = require('mongoose');
+const { authenticate } = require('./auth');
 
 const connectToDB = cb => {
   mongoose.connect(MONGO_CONNECTION_STRING, {
@@ -26,7 +28,15 @@ const connectToDB = cb => {
   db.on('error', console.error.bind(console, 'MongoDB connection error:'));
   db.once('open', async () => {
     console.log("we're connected!");
-    // await db.dropDatabase();
+    try {
+      await createUser({ login: 'admin', name: 'admin', password: 'admin' });
+    } catch (err) {
+      if (err && err.code === 11000) {
+        console.log('admin user exists');
+      } else {
+        console.log(err);
+      }
+    }
     cb();
   });
 };
@@ -55,9 +65,9 @@ app.use('/', (req, res, next) => {
 });
 
 app.use('/login', loginRouter);
-app.use('/users', userRouter);
-app.use('/boards', boardRouter);
-app.use('/boards/:boardId/tasks', taskRouter);
+app.use('/users', authenticate, userRouter);
+app.use('/boards', authenticate, boardRouter);
+app.use('/boards/:boardId/tasks', authenticate, taskRouter);
 
 app.use((err, req, res, next) => {
   handleError(err, res);
