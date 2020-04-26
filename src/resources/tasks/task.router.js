@@ -21,7 +21,6 @@ router
         throw new ErrorHandler(400, 'Bad request');
       }
       const newTask = await tasksService.createTask(req.params, req.body);
-      // console.log(newTask);
       res.json(Task.toResponse(newTask));
     } catch (error) {
       return next(error);

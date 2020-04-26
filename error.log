@@ -105,3 +105,652 @@
 {"statusCode":404,"message":"Bad request","level":"error"}
 {"statusCode":404,"message":"Bad request","level":"error"}
 {"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"ValidationError: password: Path `password` is required.","level":"error"}
+{"errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"User validation failed","message":"User validation failed: password: Path `password` is required.","name":"ValidationError","level":"error"}
+{"errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"User validation failed","message":"User validation failed: password: Path `password` is required.","name":"ValidationError","level":"error"}
+{"errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"User validation failed","message":"User validation failed: password: Path `password` is required.","name":"ValidationError","level":"error"}
+{"errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"User validation failed","message":"User validation failed: password: Path `password` is required.","name":"ValidationError","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"ValidationError: password: Path `password` is required.","level":"error"}
+{"errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"User validation failed","message":"User validation failed: password: Path `password` is required.","name":"ValidationError","level":"error"}
+{"errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"User validation failed","message":"User validation failed: password: Path `password` is required.","name":"ValidationError","level":"error"}
+{"errors":{"password":{"message":"Path `password` is required.","name":"ValidatorError","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"User validation failed","message":"User validation failed: password: Path `password` is required.","name":"ValidationError","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"ValidationError: password: Path `password` is required.","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"TypeError: db.createUser is not a function","level":"error"}
+{"statusCode":500,"message":"TypeError: db.createUser is not a function","level":"error"}
+{"statusCode":500,"message":"TypeError: db.createUser is not a function","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":404,"message":"User not found","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"undefined"}
+{"statusCode":404,"message":"User not found","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: jwt is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"level":"error","message":"undefined"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error"}
+{"statusCode":500,"message":"ReferenceError: hash is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: hash is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: hash is not defined","level":"error"}
+{"statusCode":500,"message":"ReferenceError: hash is not defined","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"statusCode":500,"message":"MongoError: E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"admin\" }","level":"error"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"login":1},"keyValue":{"login":"test_user"},"errmsg":"E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error","message":"undefined"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"login":1},"keyValue":{"login":"test_user"},"errmsg":"E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error","message":"undefined"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"login":1},"keyValue":{"login":"test_user"},"errmsg":"E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"login":1},"keyValue":{"login":"test_user"},"errmsg":"E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error","message":"undefined"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"login":1},"keyValue":{"login":"test_user"},"errmsg":"E11000 duplicate key error collection: test.users index: login_1 dup key: { login: \"test_user\" }","level":"error","message":"undefined"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":401,"message":"Access token is missing or invalid","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":400,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":403,"message":"Forbidden","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Board not found","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
+{"statusCode":404,"message":"Bad request","level":"error"}
